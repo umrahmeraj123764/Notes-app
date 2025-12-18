@@ -1,16 +1,47 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Supabase Setup
 
-Currently, two official plugins are available:
+1. Create a free account at [supabase.com](https://supabase.com)
+2. Create a new project
+3. Create a `notes` table with columns:
+   - `id` (UUID, Primary Key)
+   - `title` (Text)
+   - `content` (Text)
+   - `created_at` (Timestamp)
+   - `updated_at` (Timestamp)
+4. Copy your API URL and Anon Key to `.env.local`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
 
-## React Compiler
+1. **Create a Note** - Click "New Note" button and start typing
+2. **Edit a Note** - Click on any note to open and edit
+3. **Delete a Note** - Click delete button 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Future Enhancements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [ ] Add note categories/tags
+- [ ] Implement note sharing feature
+- [ ] Add dark mode toggle
+- [ ] Export notes as PDF
+- [ ] Implement user authentication
+- [ ] Add rich text editor (markdown support)
+- [ ] Note scheduling/reminders
+
+
+
+## Contributing
+
+Feel free to fork this project and submit pull requests for any improvements!
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Author
+
+Built as a learning project for full-stack web development.
+
+---
+
+**Happy note-taking!** 📝✨
