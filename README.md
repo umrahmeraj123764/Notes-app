@@ -1,3 +1,34 @@
+Notes App (React + Vite + Supabase)
+
+A simple, full-stack notes application built with React and Vite on the frontend and Supabase as a hosted Postgres database.
+​
+
+Overview
+This project is a lightweight note‑taking app where all notes are stored in a Supabase table and consumed directly from a React single‑page application.
+​
+It focuses on core CRUD operations for notes and a fast, minimal UI suitable for learning or extending into a larger productivity tool.
+​
+
+Features
+Create and save new notes directly to a Supabase Postgres table.
+​
+
+Edit and delete existing notes with instant updates in the UI.
+​
+
+View all notes in a clean, responsive React interface powered by Vite’s dev tooling.
+​
+
+Tech Stack
+Frontend: React + Vite for building a modern SPA with fast hot module replacement.
+​
+
+Database: Supabase Postgres used via its JavaScript client and auto‑generated APIs for CRUD operations.
+​
+
+Tooling: Node.js, npm scripts for development, build, and local preview.
+​
+
 
 ## Supabase Setup
 
